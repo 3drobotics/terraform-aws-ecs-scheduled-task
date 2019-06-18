@@ -38,9 +38,11 @@ variable "task_count" {
 variable "cpu" {
   type        = "string"
   description = "The number of cpu units used by the task"
+  default = null
 }
 
 variable "memory" {
   type        = "string"
   description = "The amount (in MiB) of memory used by the task"
+  default = null
 }
